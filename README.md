@@ -1,8 +1,8 @@
-Great choice! Let's knock out **README.md + Postman Collection**. Here's a solid draft of your `README.md` tailored to your **FraudAlert MVP backend**:
+
 
 ---
 
-### 📘 `README.md`
+###  `README.md`
 
 ````markdown
 # 🚨 FraudAlert Backend MVP
@@ -18,9 +18,7 @@ FraudAlert is a backend-only Node.js application designed to detect and manage p
 - Store transactions and fraud reports in MySQL
 - View all fraud reports (verified, unverified, date-filtered)
 - Admin review: approve or reject flagged transactions
-- Transaction filters by date, status, and source
-- Swagger API documentation (optional)
-- Validated API requests (optional)
+
 
 ---
 
@@ -32,7 +30,7 @@ FraudAlert is a backend-only Node.js application designed to detect and manage p
 - **Redis**
 - **MySQL**
 - **Postman** (for testing)
-- (Optional: Swagger for docs, Joi/Express-validator for validation)
+
 
 ---
 
