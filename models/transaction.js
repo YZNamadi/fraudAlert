@@ -16,6 +16,7 @@ Transaction.init({
   isDuplicate: DataTypes.BOOLEAN,
   isFlagged: DataTypes.BOOLEAN,
   isFraudulent: DataTypes.BOOLEAN,
+  isVerified: DataTypes.BOOLEAN,
 }, {
   sequelize: require('../config/database'), // directly pass your sequelize instance here
   modelName: 'Transaction',
